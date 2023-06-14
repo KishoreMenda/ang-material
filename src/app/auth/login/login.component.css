@@ -1,0 +1,11 @@
+.custom-subtitle {
+    font-size: 18px;
+    color: rgb(239, 148, 148);
+  }
+
+mat-card {
+    margin-top: 10%;
+    margin-left: -50%;
+    margin-right: 0%;
+    width : 150%;
+}

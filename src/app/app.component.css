@@ -1,0 +1,13 @@
+.mat-toolbar {
+    background-color: blue;
+}
+
+.custom-mat-toolbar{
+    background-color: rgb(211, 163, 203);
+}
+
+.custom-mat-toolbar .custom-mat-button {
+    background-color: rgb(72, 0, 255);
+    color: white;
+    /* Add any additional styles as needed */
+ }
