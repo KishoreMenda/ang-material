@@ -8,6 +8,16 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatDividerModule } from '@angular/material/divider';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatChipsModule} from '@angular/material/chips';
+import {MatBadgeModule} from '@angular/material/badge';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatTableModule} from '@angular/material/table';
+import {MatDialogModule} from '@angular/material/dialog';
+
+
+
+
+
 
 
 
@@ -26,6 +36,12 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatFormFieldModule,
     MatDividerModule,
     MatProgressSpinnerModule,
-    MatGridListModule]
+    MatGridListModule,
+    MatChipsModule,
+    MatBadgeModule,
+    MatMenuModule,
+    MatTableModule,
+    MatDialogModule
+  ]
 })
 export class MaterialdesignModule { }

@@ -1,6 +1,15 @@
 <mat-toolbar color="primary" class="flex justify-content-between custom-mat-toolbar">
    Ng mat tool bar
    <a href="" routerLink="blog" class="custom-mat-button" mat-raised-button> Blog </a>
+   <div class="demo-section">
+      <mat-icon matBadge="15" [matMenuTriggerFor]="menu" matBadgeColor="warn">notifications</mat-icon>
+    </div>
+   
+   <mat-menu #menu="matMenu">
+      <button mat-menu-item>Item 1</button>
+      <button mat-menu-item>Item 2</button>
+   </mat-menu>
+
    <a href="" routerLink="login" class="custom-mat-button" mat-raised-button> Login </a>
 
 </mat-toolbar>

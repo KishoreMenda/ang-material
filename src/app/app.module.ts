@@ -8,6 +8,9 @@ import { MaterialdesignModule } from './materialdesign/materialdesign.module';
 import { LoginComponent } from './auth/login/login.component';
 import { BlogPageComponent } from './blog/blog-page/blog-page.component';
 import { SingleBlogComponent } from './blog/single-blog/single-blog.component';
+import { PostComponent } from './blog/post/post.component';
+import { AdminblogComponent } from './adminblog/adminblog.component';
+
 
 
 
@@ -16,7 +19,9 @@ import { SingleBlogComponent } from './blog/single-blog/single-blog.component';
     AppComponent,
     LoginComponent,
     BlogPageComponent,
-    SingleBlogComponent
+    SingleBlogComponent,
+    PostComponent,
+    AdminblogComponent
   ],
   imports: [
     BrowserModule,
